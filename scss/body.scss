@@ -1,0 +1,196 @@
+.wsp{
+	position: fixed;
+	left: 93.8%;
+	top: 88%;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	bottom: 30px;
+	right: 30px;
+	background: #0df053;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+	z-index: 100;
+}
+.wsp:hover{
+	text-decoration: none;
+	color: #0df053;
+	background: silver;
+}
+body{
+	background: url(img/fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 10;
+}
+.ig{
+	position: fixed;
+	left: 93.8%;
+	top: 80%;
+	width: 55.5px;
+	height: 50px;
+	line-height: 45px;
+	bottom: 30px;
+	right: 30px;
+	background: violet;
+	color: blueviolet ;
+	border-radius: 40px;
+	text-align: center;
+	font-size: 10px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	z-index: 80;
+}
+.ig:hover{
+	text-decoration: none;
+	color: #0df053;
+	background: silver;
+}
+.carrito{
+
+	position: fixed;
+	left: 93.8%;
+	top: 72%;
+	width: 55.5px;
+	height: 50px;
+	line-height: 45px;
+	bottom: 30px;
+	right: 30px;
+	border-radius: 40px;
+	text-align: center;
+	font-size: 10px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	z-index: 80;
+}
+.carrito:hover{
+	text-decoration: none;
+	color: #0df053;
+	background: silver;
+}
+.foto{
+	opacity: 80%;
+	height: auto;
+	margin:auto 0px;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+
+}
+.h2{
+	text-align: center;
+}
+.grid-container{
+	background-color: dimgray;
+	height: 700px;
+	opacity: 70%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    text-align: center;
+
+}
+.grid-container div{
+	background-color: floralwhite;
+	text-align: center;
+	color: black;
+	border:1px solid black ;
+}
+.item1{
+	grid-column: 1 / span 6 ;
+}
+.item2{
+	grid-column: 1 / span 3;
+}
+.item3{
+	grid-column: 3 / span 2	;	
+}
+.item4{
+grid-row: 3 / 3;
+margin-right: 50px;
+}
+.item5{
+grid-row: 3 / 5;
+margin-right: 50px;
+}
+.item6{
+grid-row: 3 / 3	;
+grid-column: 3 / span 1;
+margin-right: 50px;
+}
+.imagenes1{
+    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.imagenes2{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.imagenes3{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+
+.vendido1{
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.vendido2{
+	display: flex;
+	align-items: center;
+}
+
+.grid-container{
+	background-color: dimgray;
+	height: 700px;
+	opacity: 70%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    text-align: center;
+
+}
+.grid-container div{
+	background-color: floralwhite;
+	text-align: center;
+	color: black;
+	border:1px solid black ;
+}
+.item1{
+	grid-column: 1 / span 6 ;
+}
+.item2{
+	grid-column: 1 / span 3;
+}
+.item3{
+	grid-column: 3 / span 2	;	
+}
+.item4{
+grid-row: 3 / 3;
+margin-right: 50px;
+}
+.item5{
+grid-row: 3 / 5;
+margin-right: 50px;
+}
+.item6{
+grid-row: 3 / 3	;
+grid-column: 3 / span 1;
+margin-right: 50px;
+}
+
+body{
+	background: url(img/fondo.png);
+	background-size: cover;
+	background-attachment: fixed;
+	opacity:10;
+}
